@@ -6,6 +6,7 @@ int main()
     int length;
     printf("输入数组长度:\n");
     scanf("%d", &length);
+    
     int arr[length];
     printf("输入数组元素:\n");
     for (int i=0; i < length; i++) {
