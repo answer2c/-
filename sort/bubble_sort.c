@@ -34,8 +34,8 @@ int bubble_sort(int *arr, int length)
     
     printf("\n");
     //从前往后
-    for (i=1;i<length;i++) {
-        for (j=length-1;j>i-1;j--) {
+    for (i=1; i<length; i++) {
+        for (j = length-1; j>i-1; j--) {
             if (arr[j] < arr[j-1]) {
                 int temp = arr[j];
                 arr[j] = arr[j-1];
@@ -44,7 +44,7 @@ int bubble_sort(int *arr, int length)
         }
     }
 
-    for(int m=0; m < length; m++) {
+    for(int m = 0; m < length; m++) {
         printf("%d ", arr[m]);
     }
     printf("\n");
