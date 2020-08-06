@@ -13,7 +13,6 @@ int main()
          scanf("%d", &arr[i]);
     }
     quick_sort(arr, 0, length - 1);
-
     for (int m = 0; m < length; m++) {
         printf("%d", arr[m]);
     }
